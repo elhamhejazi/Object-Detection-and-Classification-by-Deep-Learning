@@ -79,7 +79,7 @@ Model 2:\
 Validation Loss: 0.184452623128891,
 Validation Accuracy: 0.9383333325386047
 
-The test loss and accuracy after fitting the models are as follow:
+The test loss and accuracy after fitting the models are as follow:\
 Model 1 Test Loss: 0.6389545202255249,\
 Model 1 Test Accuracy: 0.896288652420044,\
 Model 2 Test Loss: 0.2377959042787552,\
