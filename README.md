@@ -69,12 +69,13 @@ Applying different batch sizes that play a vital role in the model. The batch si
 replacing average pooling instead of max-pooling and different combination. Regarding the picture, max-pooling in all layers performs better.
 
 ## Results and Conclusion
-The validation accuracy and loss for both models are shown below:
-Model 1:
+The validation accuracy and loss for both models are shown below:\
+
+Model 1:\
 Validation Loss: 0.4118146300315857,
 Validation Accuracy: 0.9089999856948853
 
-Model 2:
+Model 2:\
 Validation Loss: 0.184452623128891,
 Validation Accuracy: 0.9383333325386047
 
