@@ -68,7 +68,7 @@ Evaluating the model with different kernel sizes. The most efficient accuracy by
 Applying different batch sizes that play a vital role in the model. The batch size 64 performs the best among different batch sizes and I chose it for our model.
 replacing average pooling instead of max-pooling and different combination. Regarding the picture, max-pooling in all layers performs better.
 
-## Results and Conclusion
+## Results
 The validation accuracy and loss for both models are shown below:
 
 Model 1:\
@@ -86,5 +86,7 @@ Model 2 Test Loss: 0.2377959042787552,\
 Model 2 Test Accuracy: 0.9295532703399658
 
 Additionally, VGG16, and Resnet50 are used to compare the complexity of our models. Resnet50 has 23888771, model 1 has 324187 parameters, model 2 has 216155 parameters, and VGG16 has 14789955 total parameters. Thus, Model 2 has the least amount of complexity.
+
+## Conclusion
 As a result, I used the fundamental CNN structure, their architecture, and the various layers that comprise various CNN models in this project. Additionally, I evaluate the accuracy metrics for two additional models, VGG16 and Resnet50, to determine that both of our models outperform Resnet50, but VGG16 performs the best. Changing different parameters that affect the CNN should represent much more than optimality.
 
