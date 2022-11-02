@@ -71,17 +71,17 @@ replacing average pooling instead of max-pooling and different combination. Rega
 ## Results and Conclusion
 The validation accuracy and loss for both models are shown below:
 Model 1:
-Validation Loss: 0.4118146300315857
+Validation Loss: 0.4118146300315857,
 Validation Accuracy: 0.9089999856948853
 
 Model 2:
-Validation Loss: 0.184452623128891
+Validation Loss: 0.184452623128891,
 Validation Accuracy: 0.9383333325386047
 
 The test loss and accuracy after fitting the models are as follow:
-Model 1 Test Loss: 0.6389545202255249
-Model 1 Test Accuracy: 0.896288652420044
-Model 2 Test Loss: 0.2377959042787552
+Model 1 Test Loss: 0.6389545202255249,
+Model 1 Test Accuracy: 0.896288652420044,
+Model 2 Test Loss: 0.2377959042787552,
 Model 2 Test Accuracy: 0.9295532703399658
 
 Additionally, VGG16, and Resnet50 are used to compare the complexity of our models. Resnet50 has 23888771, model 1 has 324187 parameters, model 2 has 216155 parameters, and VGG16 has 14789955 total parameters. Thus, Model 2 has the least amount of complexity.
